@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Website</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            padding: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            text-decoration: underline;
+            font-size: 2em;
+            margin-top: 40px;
+            text-align: center;
+        }
+        p, li {
+            font-size: 1.1em;
+            color: #333;
+        }
+        .role {
+            margin-top: 30px;
+        }
+        .role b {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+            color: #007acc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <p>Hello! This is a simple website made using Notepad++.</p>
+        <p>Feel free to <a href="#">explore more</a>.</p>
+
+        <!-- PERMISSIONS Section -->
+        <section>
+            <h2>PERMISSIONS</h2>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Moderation</b>
+                <p>You have No Perms.</p>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Administration</b>
+                <p>You have No Perms.</p>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Director Of Human Recourses</b>
+                <ul>
+                    <li>Perms to Promote/Infract Moderation and Administration</li>
+                    <li>Can’t use RSM (Remote Server Management)</li>
+                    <li>Can’t Use ODC (Off Duty Commands)</li>
+                </ul>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I International Affairs</b>
+                <ul>
+                    <li>Perms to Promote/Infract Moderation and Administration</li>
+                    <li>Can’t use RSM (Remote Server Management)</li>
+                    <li>Can’t Use ODC (Off Duty Commands)</li>
+                    <li>REQUEST Perms from Management+ to Promote HR</li>
+                </ul>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Management Team</b>
+                <ul>
+                    <li>Perms to Promote/Infract Moderation, Administration, and Human Resources</li>
+                    <li>Can’t use RSM (Remote Server Management)</li>
+                    <li>Can Use ODC (Off Duty Commands)</li>
+                    <li>REQUEST Perms from Board Of Executives+ to Promote IA</li>
+                </ul>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Board Of Executives</b>
+                <ul>
+                    <li>Perms to Promote/Infract Moderation, Administration, Human Resources, and Management</li>
+                    <li>Can use RSM (Remote Server Management)</li>
+                    <li>Can Use ODC (Off Duty Commands)</li>
+                    <li>REQUEST Perms from Server Oversight Board+ to Promote Management</li>
+                </ul>
+            </div>
+
+            <div class="role">
+                <b>@𝓢𝓛𝓒𝓡𝓟 I Server Oversight Board +</b>
+                <ul>
+                    <li>Perms to Promote everyone!</li>
+                    <li>Must Get Perms from @LOA I F I HSSO I Lordtommy or @𝔇𝔣/𝔖𝔖𝔒| 𝔜𝔬𝔲𝔫𝔤 To Promote Board Of Executives</li>
+                    <li>Can use RSM (Remote Server Management)</li>
+                    <li>Can Use ODC (Off Duty Commands)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My First Website</p>
+    </footer>
+</body>
+</html>
